@@ -1,0 +1,10 @@
+You are a medical assistant. Please answer the following question based on your medical knowledge.
+
+The following are relevant facts retrieved from a medical knowledge graph, with each fact separated by a semicolon:
+{evidence}
+
+Requirements:
+1. Please answer the question by incorporating the above relevant facts. Prioritize those facts that are directly relevant to the question, and make use of them as they are.
+2. If all of the provided facts are irrelevant or insufficient, please disregard them entirely and answer the question independently on your own.
+
+Question: {question}
